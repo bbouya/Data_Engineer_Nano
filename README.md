@@ -25,3 +25,10 @@ Common data Engeneering Activities:
 1. C#, Software developer, HTML, XML, JQuery, CSS, .NET, WEB SERVICES, PHP, Agile methodologies.
 
 
+## What is a data model?
+ "... an abstraction that organizes elements of data and how they will relate to each other"
+ "the process of creating data models for an information system"
+ Data modeling can easily translate to database modeling, as this is the essential end state.
+ 
+## Exemple of busines process
+![image](https://user-images.githubusercontent.com/52068209/145091748-a3f8d422-2538-40b3-b788-63108cdd9c15.png)
