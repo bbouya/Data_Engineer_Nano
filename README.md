@@ -82,5 +82,25 @@ The basics :
   1. Open source object-Relational database system
   2. Uses and builds on SQL langage
 
+# Project Portfolio :
+ Real-World project are integral to every Udacity Nanodegree program, they becom the foundation for a job-ready portfolio to help learners advance their careers in their chosen field, the project in the data engineer nano program were designed in collaboration with a group of highly talented industry profrssionals to ensure you develop the most in demande skills.
+
+## Project 1: DATA MODELING
+In this project, you will model user activity data for a music streaming app called sparkify, the project is done in two parts. you will create a database and import data stored in csv and json files. and model the data. you will do this first with a relational model in postgres, then with a NoSQL data model with Apache cassandra. we will desing the data models to optimize queries for understanding what songs users are listening to.
+### Data Modeling:
+An abstraction that organizes elements of data and how they will relate to each other.
+question : Why can't everything be stored in a giant Excek SpreadSheet?
+   * There are limitation ti the amount of data that can be stored in Excel sheet. so a dataBase helps organize the elements into tables rows and columns, etc. also readin and writing operations on a large scale is not possible with an Excek sheet, si its better to use a database to handle most businiess functions
+
+   #### key points about DATA MODELING
+   -- Data Organization: the organization of the data for your application is extremly important and makes everyone's life easier.
+   -- Use Cases: Having a well thought out and organized data model is critical to how that data can later can be used.
+   -- Starting early: Thinking and planning ahead will help you be successful. this is not something you want to leave until the last minute.
+   -- Iterative Process: Data modeling is not a fixed process. It is iterative as new requirements and data are introduced. having flexibility will help as new information becomes available.
+
+### Relational and NoSQL DataBases : 
+Question: why we need to take different proches in data modeling:
+   {Relational DataBases}
+   Relational Model is a model that organizes data into one or more tables (or 'relations') of columns and rows, with a unique key identifying each row, Generally each table represents one 'entity type' 
 
  
