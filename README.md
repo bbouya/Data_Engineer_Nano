@@ -102,5 +102,18 @@ question : Why can't everything be stored in a giant Excek SpreadSheet?
 Question: why we need to take different proches in data modeling:
    {Relational DataBases}
    Relational Model is a model that organizes data into one or more tables (or 'relations') of columns and rows, with a unique key identifying each row, Generally each table represents one 'entity type' 
+   #### When to use a Relational Databases
+   Advantages of Using a Relational Database 
+      -- Flexibilite fir writing in sql queries: with SQL being the most common database query language.
+      -- Modeling the data not modeling queries
+      -- Ability to do JOINS
+      -- Ability to do aggregations and analytics
+      -- Secondary Indexes available: You have the advantage of being able to add anather index to help with quick searching.
+      -- Smaller data volumes: If you have a smaller data volume.
+      -- ACID Transactions: Allows you to meet a set of properties of database transactions inteded to guarantee validity even in event of errors, power failures, and thus maintain data integrity.
+      --  Easier to change to business requirements.
+   ###### Acid Properties : 
+      Properties of databases transactions intended to guatantee validity even in the event of errors or power failures.
+         -- Atomicity : The whole transaction is processed or nothing is processed, a commonly cited example of an atomic transaction 
 
  
