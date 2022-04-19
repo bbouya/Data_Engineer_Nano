@@ -116,4 +116,17 @@ Question: why we need to take different proches in data modeling:
       Properties of databases transactions intended to guatantee validity even in the event of errors or power failures.
          -- Atomicity : The whole transaction is processed or nothing is processed, a commonly cited example of an atomic transaction 
 
+## NoSql Databases : 
+   -- Apache Cassandra (Partition Row store)
+   -- MongoDB (Document store)
+   -- DynamoDB(key-Value store)
+   -- Apache HBase (wide Column Store)
+   -- Neo4j (Graph Database)
+
+   ###### Q: for this course we will use Apache Cassandra to explaine the concepts of data modeling for NoSQL Databases.
+   the basics of Apache Cassandra (keyspace: collection of table) - (Table: Agroup of partitions) - (Rows: A single item)
+   (Clustering Columns: ex lasname, firstname) - (Data columns: ex adress, email..) - (partition: clustering columns + columns data)
+
+
+
  
