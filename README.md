@@ -126,6 +126,10 @@ Question: why we need to take different proches in data modeling:
    ###### Q: for this course we will use Apache Cassandra to explaine the concepts of data modeling for NoSQL Databases.
    the basics of Apache Cassandra (keyspace: collection of table) - (Table: Agroup of partitions) - (Rows: A single item)
    (Clustering Columns: ex lasname, firstname) - (Data columns: ex adress, email..) - (partition: clustering columns + columns data)
+   -- Partition : Fundamental unit of access, collection of rows, How data is distributed.
+   -- Primary key : primary key is made up of a patition key and clustering columns.
+   -- Columns : Clustering and data, Labeled element.
+   
 
 
 
